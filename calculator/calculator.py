@@ -12,7 +12,7 @@ def multiply(a, b):
 def divide(a, b):
     return a / b
 
-
+#def main():
 selection = input("Welcome to the Calculator! Select 1 to add, 2 to subtract, 3 to multiply, or 4 to divide ")
 
 a = float(input("What is your first digit? "))
@@ -32,4 +32,5 @@ elif selection == "4":
      print(divide(a, b))
 
 else: 
-    print(f"Are you sure {a} and {b} are actually numbers")
+    print(f"Are you sure {a} and {b} are actually numbers AND {selection} is between 1 - 4?")
+    #main()
